@@ -1,5 +1,13 @@
 ## Git-Learn
 ---
+```
+- 编写： 张庆科
+
+- 邮箱： tsingke@sdnu.edu.cn
+
+- 单位： 山东师范大学
+
+```
 
 ### git简介
  `Git（读音为/gɪt/）`是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。 
@@ -28,6 +36,8 @@ Git 处理分支的方式可谓是难以置信的轻量，创建新分支这一�
 
 版本控制的目的是实现开发团队并行开发、提高开发效率的基础。其目的在于对软件开发进程中文件或目录的发展过程提供有效的追踪手段，保证在需要时可回到旧的版本，避免文件的丢失、修改的丢失和相互覆盖，通过对版本库的访问控制避免未经授权的访问和修改，达到有效保护企业软件资产和知识产权的目的。
 
+![输入图片说明](Figures/versionControl.png)
+
 版本控制的功能在于跟踪记录整个软件的开发过程，包括软件本身和相关文档，以便对不同阶段的软件及相关文档进行表示并进行差别分析，对软件代码进行可撤消的修改，便于汇总不同开发人员所做的修改，辅助协调和管理软件开发团队。
 
 - 集中式版本控制：集中存放所有资料，所有变动都更新到中央服务器。同时所有相关人员想要进行相关浏览和修改都需要连接中央服务器。
@@ -41,11 +51,11 @@ Git 处理分支的方式可谓是难以置信的轻量，创建新分支这一�
 
 ![输入图片说明](Figures/work-stage-repo.png)
 
-- 工作区（workspace）： 
+- 工作区（workspace）： .git所在的同目录下的内容
 
-- 暂存区（staged）：
+- 暂存区（staged）：.git/index 
 
-- 本地仓库（repository）：
+- 本地仓库（repository）：./git/objects 
 
 ### git 文件的四种状态
 ---
@@ -56,3 +66,60 @@ Git 处理分支的方式可谓是难以置信的轻量，创建新分支这一�
 ---
 
 ![输入图片说明](Figures/gitcommand.png)
+
+### git基本原理
+---
+![输入图片说明](Figures/git%E5%8E%9F%E7%90%86.png)
+
+
+### git 进阶：仓库的2种创建方法
+---
+![输入图片说明](Figures/gitinit.png)
+
+
+
+
+### git进阶：历史版本回退
+---
+
+![输入图片说明](Figures/gitreset.png)
+
+![输入图片说明](Figures/gitresetDemo.png)
+
+### git 进阶：查看文件版本的差异
+---
+
+![输入图片说明](Figures/gitdiff.png)
+
+![输入图片说明](Figures/gitdiff-1.png)
+ 
+![输入图片说明](Figures/gitdiff-2.png) 
+
+![输入图片说明](Figures/gitdiff-3.png)
+
+
+### git 进阶：文件快速删除
+---
+
+![输入图片说明](Figures/gitrm.png)
+
+### git进阶：分支创建
+---
+
+![输入图片说明](Figures/gitbranch.png)
+
+![输入图片说明](Figures/gitbranchDemo.png)
+
+
+### git 进阶： 分支合并冲突解决
+---
+
+![输入图片说明](Figures/gitbranchConflict.png)
+
+![输入图片说明](Figures/gitbranchConflictDemo.png)
+
+### git 进阶： git工作流
+---
+![输入图片说明](Figures/gitFlow.png)
+
+![输入图片说明](Figures/githubFlow.png)
